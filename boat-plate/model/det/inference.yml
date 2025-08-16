@@ -1,0 +1,34 @@
+PreProcess:
+  transform_ops:
+  - DecodeImage:
+      channel_first: false
+      img_mode: BGR
+  - DetLabelEncode: null
+  - DetResizeForTest:
+      image_shape:
+      - 736
+      - 1280
+  - NormalizeImage:
+      mean:
+      - 0.485
+      - 0.456
+      - 0.406
+      order: hwc
+      scale: 1./255.
+      std:
+      - 0.229
+      - 0.224
+      - 0.225
+  - ToCHWImage: null
+  - KeepKeys:
+      keep_keys:
+      - image
+      - shape
+      - polys
+      - ignore_tags
+PostProcess:
+  name: DBPostProcess
+  thresh: 0.3
+  box_thresh: 0.7
+  max_candidates: 1000
+  unclip_ratio: 1.5
