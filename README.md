@@ -16,7 +16,7 @@
 
 识别系统
 
-![image-20250816194111413](../AppData/Roaming/Typora/typora-user-images/image-20250816194111413.png)
+![image-20250816194111413](https://gitee.com/godwen666/pictures/raw/master/image-20250816194111413.png)
 
 
 
@@ -101,13 +101,13 @@
 
 - 点击run启动程序，上传一张包含船牌的图片。（本项目中提供约20张示例图片）
 
-	![image-20250817190351973](../AppData/Roaming/Typora/typora-user-images/image-20250817190351973.png)
+	![image-20250817190351973](https://gitee.com/godwen666/pictures/raw/master/image-20250817190351973.png)
 
-	![image-20250817190409787](../AppData/Roaming/Typora/typora-user-images/image-20250817190409787.png)
+	![image-20250817190409787](https://gitee.com/godwen666/pictures/raw/master/image-20250817190409787.png)
 
 - 系统会检测出船牌区域并提取文本，提取出最大置信区间的结果后会在图形界面中显示，您可以选择将结果保存到数据库中。
 
-	![image-20250817190442306](../AppData/Roaming/Typora/typora-user-images/image-20250817190442306.png)
+	![image-20250817190442306](https://gitee.com/godwen666/pictures/raw/master/image-20250817190442306.png)
 
 	
 
